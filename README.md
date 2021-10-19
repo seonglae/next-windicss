@@ -26,17 +26,23 @@ pnpm dev
 
 ### NProgress
 
-## Built with
+<br/>
+
+# Built with
 - `Next.js` - React Framework
 - `windiCSS` - Style Framework
 - `zustand` - State Manager
 
-## Code Styler
+<br/>
+
+# Code Styler
 - `eslint` & `prettier` - linter & formatter
 - `husky` - `git hook automation`
 
 
-## Design Pattern
+<br/>
+
+# Design Pattern
 
 - Atomic Design Pattern - Component Design Pattern
 
