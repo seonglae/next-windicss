@@ -18,7 +18,7 @@ pnpm dev
 
 
 ## Feature
-### Dark Mode
+### Persist Dark Mode
 ![Dark Mode](image/dark.png)
 
 ### Light Weight
@@ -27,6 +27,7 @@ pnpm dev
 ![Attributify Grid](image/grid.png)
 
 ### NProgress
+### Local Storage Store
 
 <br/>
 
