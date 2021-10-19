@@ -16,7 +16,7 @@ const Login: React.FC = () => {
         <Input bind={password} m="b-6" w="full" label="Passwrod" id="password" type="password" />
         <footer className="flex items-center" w="full" justify="between" flex="row">
           <div />
-          <Button text="Login" onClick={() => login(email.current)} />
+          <Button p="y-2 x-4" text="Login" onClick={() => login(email.current)} />
         </footer>
       </form>
     </>

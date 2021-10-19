@@ -1,7 +1,7 @@
 import React, { MouseEventHandler } from 'react'
 
 const Card: React.FC<{ m?: string; text: string; p?: string; onClick?: MouseEventHandler<HTMLButtonElement> }> = ({
-  p = 'y-2 x-4',
+  p,
   text,
   onClick,
   m,

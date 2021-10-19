@@ -31,6 +31,7 @@ pnpm dev
 # Built with
 - `Next.js` - React Framework
 - `windiCSS` - Style Framework
+  - Attributify Syntax
 - `zustand` - State Manager
 
 <br/>
