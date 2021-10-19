@@ -13,7 +13,7 @@ const Login: React.FC = () => {
     <>
       <form p="8" w="full">
         <Input bind={email} autoFocus m="b-4" w="full" label="Email" id="email" type="email" />
-        <Input bind={password} m="b-6" w="full" label="Passwrod" id="password" type="password" />
+        <Input bind={password} m="b-6" w="full" label="Password" id="password" type="password" />
         <footer className="flex items-center" w="full" justify="between" flex="row">
           <div />
           <Button p="y-2 x-4" text="Login" onClick={() => login(email.current)} />
