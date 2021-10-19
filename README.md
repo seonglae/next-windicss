@@ -18,11 +18,13 @@ pnpm dev
 
 
 ## Feature
-- Dark Mode
+### Dark Mode
 ![Dark Mode](image/dark.png)
-- Light Weight
+
+### Light Weight
 ![Windii Weight](image/windi.png)
-- NProgress
+
+### NProgress
 
 ## Built with
 - `Next.js` - React Framework
