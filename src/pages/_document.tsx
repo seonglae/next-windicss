@@ -24,6 +24,7 @@ const Document: NextComponentType<DocumentContext, DocumentInitialProps, Documen
       </Head>
 
       <body>
+        <script src="noflash.js" />
         <Main />
         <NextScript />
       </body>
