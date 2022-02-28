@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@babel/core': ^7.12.10
   '@babel/eslint-parser': ^7.15.4
-  '@next/eslint-plugin-next': ^11.1.2
+  '@next/eslint-plugin-next': ^12.1.0
   '@types/node': ^14.14.21
   '@types/nprogress': ^0.2.0
   '@types/react': ^17.0.0
@@ -44,7 +44,7 @@ dependencies:
 devDependencies:
   '@babel/core': 7.14.3
   '@babel/eslint-parser': 7.15.4_@babel+core@7.14.3+eslint@7.32.0
-  '@next/eslint-plugin-next': 11.1.2
+  '@next/eslint-plugin-next': 12.1.0
   '@types/node': 14.17.3
   '@types/nprogress': 0.2.0
   '@types/react': 17.0.10
@@ -374,8 +374,8 @@ packages:
     resolution: {integrity: sha512-zPJkMFRenSf7BLlVee8987G0qQXAhxy7k+Lb/5hLAGkPVHAHm+oFFeL+2ipbI2KTEFlazdmGY0M+AlLQn7pWaw==}
     dev: false
 
-  /@next/eslint-plugin-next/11.1.2:
-    resolution: {integrity: sha512-cN+ojHRsufr9Yz0rtvjv8WI5En0RPZRJnt0y16Ha7DD+0n473evz8i1ETEJHmOLeR7iPJR0zxRrxeTN/bJMOjg==}
+  /@next/eslint-plugin-next/12.1.0:
+    resolution: {integrity: sha512-WFiyvSM2G5cQmh32t/SiQuJ+I2O+FHVlK/RFw5b1565O2kEM/36EXncjt88Pa+X5oSc+1SS+tWxowWJd1lqI+g==}
     dependencies:
       glob: 7.1.7
     dev: true
