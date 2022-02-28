@@ -48,7 +48,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/eslint-parser": "^7.15.4",
-    "@next/eslint-plugin-next": "^11.1.2",
+    "@next/eslint-plugin-next": "^12.1.0",
     "@types/node": "^14.14.21",
     "@types/nprogress": "^0.2.0",
     "@types/react": "^17.0.0",
