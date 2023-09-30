@@ -18,14 +18,11 @@ pnpm dev
 
 
 ## Feature
-### Persist Dark Mode
+- Persist Dark Mode
+- Light Weight
+- Attributify Grid
+
 ![Dark Mode](image/dark.png)
-
-### Light Weight
-![Windii Weight](image/windi.png)
-### Attributify Grid
-![Attributify Grid](image/grid.png)
-
 ### NProgress
 ### Local Storage Store
 
