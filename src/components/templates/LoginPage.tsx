@@ -24,7 +24,7 @@ export const LoginPage: React.FC = () => {
   })
 
   return (
-    <div text="dark:white" bg="white dark:dark-500" w="screen" h="screen" transition="colors">
+    <div text="dark:white" bg="white dark:dark-500" transition="colors">
       <NextSeo title={pkg.displayName} titleTemplate="%s" />
       <div className="flex absolute inset-0" justify="center">
         <Middle>

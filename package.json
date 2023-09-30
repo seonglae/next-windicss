@@ -9,7 +9,7 @@
     "start": "next start --port 1234",
     "css": "windicss-analysis",
     "lint": "eslint ./src/**/*.{ts,tsx} --ignore-path .gitignore --fix",
-    "build": "pnpm lint && next build"
+    "build": "next build"
   },
   "author": {
     "name": "Seonglae Cho",
