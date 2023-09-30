@@ -21,20 +21,6 @@
   "engines": {
     "node": ">=14"
   },
-  "husky": {
-    "hooks": {
-      "post-merge": "pnpm i",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "{src}/**/*.{ts,tsx}": [
-      "eslint --fix --ignore-path .gitignore"
-    ],
-    "{src}/**/*.{md,ts,tsx}": [
-      "prettier --write --ignore-path .gitignore"
-    ]
-  },
   "dependencies": {
     "next": "^11.1.0",
     "next-seo": "^5.1.0",
@@ -43,6 +29,7 @@
     "react-dom": "^18.1.0",
     "react-icons": "^4.2.0",
     "use-dark-mode": "^2.3.1",
+    "typescript": "^4.3.5",
     "zustand": "^3.5.7"
   },
   "devDependencies": {
@@ -63,7 +50,6 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^8.0.1",
     "prettier": "^2.2.1",
-    "typescript": "^4.3.5",
     "windicss": "^3.1.7",
     "windicss-analysis": "^0.3.4",
     "windicss-webpack-plugin": "^1.4.6"
