@@ -1,18 +1,7 @@
 import React from 'react'
-import NextDocument, {
-  Head,
-  Html,
-  Main,
-  NextScript,
-  DocumentContext,
-  DocumentInitialProps,
-  DocumentProps,
-} from 'next/document'
-import { NextComponentType } from 'next'
+import { Head, Html, Main, NextScript } from 'next/document'
 
-const Document: NextComponentType<DocumentContext, DocumentInitialProps, DocumentProps> & {
-  renderDocument: (DocumentComponent: new () => unknown, props: unknown) => unknown
-} = () => {
+const Document = () => {
   return (
     <Html lang="en">
       <Head>
@@ -31,11 +20,5 @@ const Document: NextComponentType<DocumentContext, DocumentInitialProps, Documen
     </Html>
   )
 }
-
-Document.getInitialProps = async (ctx: DocumentContext) => {
-  const initialProps = await NextDocument.getInitialProps(ctx)
-  return { ...initialProps }
-}
-Document.renderDocument = NextDocument.renderDocument
 
 export default Document
